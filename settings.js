@@ -6,10 +6,10 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'enter your session id' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'SUPUN-MD=qBNFxYrT#bWWz8XCrIWol5vuM7lV9CbgLthRkLLeCANfsSlmT40A' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
-SUDO: process.env.SUDO === undefined ? '94718461889' : process.env.SUDO,
+SUDO: process.env.SUDO === undefined ? '94762095304' : process.env.SUDO,
 MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT === undefined ?"true" : process.env.AUTO_STATUS_REACT,
@@ -19,12 +19,12 @@ AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "true" : process.env.AUTO
 ANTI_BAD: process.env.ANTI_BAD === undefined ? "false" : process.env.ANTI_BAD,
 ANTI_LINK_DEL: process.env.ANTI_LINK_DEL === undefined ? "true" : process.env.ANTI_LINK_DEL,
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK === undefined ? "false" : process.env.ANTI_LINK_KICK,
-ANTI_CALL: process.env.ANTI_CALL === undefined ? "true" : process.env.ANTI_CALL,    
+ANTI_CALL: process.env.ANTI_CALL === undefined ? "false" : process.env.ANTI_CALL,    
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
 ANTI_DELETE : process.env.ANTI_DELETE === undefined ? 'true' : process.env.ANTI_DELETE,
-ANTI_BOT: process.env.ANTI_BOT === undefined ? "true" : process.env.ANTI_BOT,
+ANTI_BOT: process.env.ANTI_BOT === undefined ? "false" : process.env.ANTI_BOT,
 ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "false" : process.env.ALLWAYS_OFFLINE,
-ALLWAYS_ONLINE: process.env.ALLWAYS_ONLINE === undefined ? "false" : process.env.ALLWAYS_ONLINE,
+ALLWAYS_ONLINE: process.env.ALLWAYS_ONLINE === undefined ? "true" : process.env.ALLWAYS_ONLINE,
 AUTO_READ_CMD: process.env.AUTO_READ_CMD === undefined ? "true" : process.env.AUTO_READ_CMD,
 ALWAYS_RECORDING: process.env.ALWAYS_RECORDING === undefined ? "true" : process.env.ALWAYS_RECORDING,
 ALWAYS_TYPING: process.env.ALWAYS_TYPING === undefined ? "false" : process.env.ALWAYS_TYPING,
